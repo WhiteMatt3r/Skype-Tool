@@ -234,7 +234,7 @@ public class Controller implements Initializable {
                         return;
                     }
 
-                    if (Integer.parseInt(newValue) < 0 || Integer.parseInt(newValue) >= 2000) throw new Exception();
+                    if (Integer.parseInt(newValue) < 0 || Integer.parseInt(newValue) >= 10000) throw new Exception();
 
                 } catch (Exception e) {
 
